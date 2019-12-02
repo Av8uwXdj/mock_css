@@ -1,0 +1,17 @@
+/* ---------- mock1 ---------- */
+#mock1 .c1 { color: red; }
+#mock1 .c2 { color: #cccccc; }
+#mock1 .c3 { color: #555;}
+#mock1 .c4 { color: rgb(115, 100, 255); }
+#mock1 .c5 { color: rgb(70%, 20%, 10%); }   /* %と数値の併用も可能 */
+
+/* ---------- mock2 ---------- */
+#mock2 .c1 { font-size: larger; }
+#mock2 .c2 { font-size: 18px; }
+#mock2 .c3 { font-style: italic; }  /* ならないフォントもある */
+#mock2 .c4 { font-style: oblique; } /* 日本語はitalicと変わらない場合が多い */
+#mock2 .c5 { text-decoration: underline; }
+#mock2 .c6 { text-decoration: overline; }
+#mock2 .c7 { text-decoration: line-through; }
+#mock2 .c8 { font-weight: bold; }
+#mock2 .c9 { font-family: '游ゴシック'; }
